@@ -1,0 +1,59 @@
+header {
+  background-image: linear-gradient(to right, lightblue, blue);
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.fiveday-header {
+  display: flex;
+  display: inline-block;
+}
+
+.col-12 {
+  text-align: center;
+  display: flexbox;
+  display: wrap;
+}
+
+.mt-1 {
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+  background-image: linear-gradient(to right, whitesmoke, lightgray);
+}
+
+#today-weather {
+  display: flex;
+  display: inline-block;
+  background-image: linear-gradient(to right, whitesmoke, lightgray);
+  flex-wrap: wrap;
+  border: 2px solid black;
+  text-align: center;
+}
+
+#enter-city {
+  background-image: linear-gradient(to right, whitesmoke, lightgray);
+  border: 1px solid black;
+}
+
+
+
+#clear-history {
+  display: flex;
+  background-color: rgb(121, 161, 248);
+  color: black;
+  border: 1px solid black;
+}
+
+#search-button {
+  display: flex;
+  background-color: rgb(121, 161, 248);
+  color: black;
+  border: 1px solid black;
+  align-items: center;
+}
+
+.form {
+  background-color: aqua;
+  background-image: linear-gradient(to right, whitesmoke, lightgray);
+}
