@@ -1,59 +1,65 @@
-header {
-  background-image: linear-gradient(to right, lightblue, blue);
-  border-radius: 10px;
-  border: 1px solid black;
-}
-
-.fiveday-header {
+.body {
   display: flex;
   display: inline-block;
+  justify-content: center, space-evenly;
+  align-items: center;
+  position: relative;
+  text-align: center;
+}
+header {
+  background-image: linear-gradient(to right, rgb(59, 84, 138), rgb(66, 150, 111));
+  color: rgb(214, 214, 214);
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .col-12 {
   text-align: center;
-  display: flexbox;
-  display: wrap;
-}
-
-.mt-1 {
-  border: 1px solid black;
-  border-radius: 5px;
-  text-align: center;
-  background-image: linear-gradient(to right, whitesmoke, lightgray);
+  justify-content: center;
+  position: relative;
 }
 
 #today-weather {
-  display: flex;
-  display: inline-block;
   background-image: linear-gradient(to right, whitesmoke, lightgray);
-  flex-wrap: wrap;
-  border: 2px solid black;
+  border: 1.5px solid black;
   text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
 #enter-city {
-  background-image: linear-gradient(to right, whitesmoke, lightgray);
-  border: 1px solid black;
+  border: 1.5px solid black;
 }
 
-
-
 #clear-history {
-  display: flex;
-  background-color: rgb(121, 161, 248);
-  color: black;
-  border: 1px solid black;
+  background-image: linear-gradient(to right, rgb(59, 84, 138), rgb(66, 150, 111));
+  color: whitesmoke;
+  border: 1.5px solid black;
+  align-items: center;
+  position: relative;
+  text-align: center;
+  justify-content: center;
 }
 
 #search-button {
-  display: flex;
-  background-color: rgb(121, 161, 248);
-  color: black;
+  background-image: linear-gradient(to right, rgb(59, 84, 138), rgb(66, 150, 111));;
+  color: whitesmoke;
   border: 1px solid black;
   align-items: center;
 }
 
-.form {
-  background-color: aqua;
+.col-md-2 {
   background-image: linear-gradient(to right, whitesmoke, lightgray);
+  text-align: center;
+  align-items: center;
+  justify-content: center, space-evenly;
+  position: relative;
+}
+
+.col-lg-3 {
+  border: 1px solid black;
+  border-radius: 5px;
+  justify-content: center;
+  position: relative;
+  background-image: linear-gradient(to right, whitesmoke,lightgray);
 }
